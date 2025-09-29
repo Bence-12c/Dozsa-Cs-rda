@@ -1,0 +1,17 @@
+<h1>List of nations name, capital and population</h1>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Capital</th>
+            <th>Pop</th>
+        </tr>
+    </thead>
+    <thead>
+        <tr *ngFor="let orszag of orszagok">
+            <th>{{orszag.name}}</th>
+            <th>{{orszag.capital}}</th>
+            <th>{{orszag.pop}}</th>
+        </tr>
+    </thead>
